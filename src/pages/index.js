@@ -1,8 +1,11 @@
-import { Header } from 'components/Index';
+import { Header, Hero } from 'components/Index';
 
 const Home = () => {
   return (
-    <Header />
+    <>
+      <Header />
+      <Hero />
+    </>
   )
 }
 
