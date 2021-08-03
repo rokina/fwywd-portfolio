@@ -1,8 +1,15 @@
-import { Header } from 'components/Index';
+import { Header, Hero } from 'components/Index';
+import Head from 'next/head';
 
 const Home = () => {
   return (
-    <Header />
+    <>
+      <Head>
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet" />
+      </Head>
+      <Header />
+      <Hero />
+    </>
   )
 }
 

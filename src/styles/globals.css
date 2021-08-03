@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply text-text-black tracking-widest;
+    @apply text-text-black tracking-widest font-body;
   }
 
   a {
