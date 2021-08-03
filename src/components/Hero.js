@@ -3,7 +3,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <div className="flex justify-between items-center bg-bg-green py-10">
-      <div className="text-text-white pl-16">
+      <div className="text-text-white pl-24">
         <h1 className="text-[42px] font-bold">メインタイトル</h1>
         <p className="text-[28px] pt-1">サブタイトル</p>
       </div>
