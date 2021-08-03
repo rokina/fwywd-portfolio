@@ -13,6 +13,11 @@ module.exports = {
       'progress-deep': '#2bb9ba',
       'border-green': '#c5eaea',
     },
+    fontFamily: {
+      body: [
+        '"Noto Sans JP"'
+      ]
+    },
     container: {
       center: true,
     },
