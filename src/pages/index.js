@@ -1,6 +1,9 @@
-export default function Home() {
+import { Header } from 'components/Index';
+
+const Home = () => {
   return (
-    <div>
-    </div>
+    <Header />
   )
 }
+
+export default Home
